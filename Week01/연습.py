@@ -1,18 +1,6 @@
-def i(nums, target):
-    l = 0
-    r = len(nums) - 1
-    while l <= r:
-        mid = (l + r) // 2
-        if nums[mid] < target:
-            l = mid + 1
-        elif nums[mid] > target:
-            r = mid - 1
-        else:
-            return mid
-    return l
+a = [1,2,3,4,5,6]
 
-n = [1,3,5,6]
-a = 5
-print(i(n,a))
+mx = max(a)
+mn = min(a)
 
-
+print(a.index(mx))
