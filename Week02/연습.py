@@ -1,5 +1,5 @@
-a = [1,2,3]
-b = [0,0]
+n= 3
+dp = [0 for _ in range(n)]
 
-print(a+b)
+print(dp)
 
